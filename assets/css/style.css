@@ -1,0 +1,15 @@
+/*--THEME--*/
+
+:root {
+  /*--COLORS--*/
+  --head-font-color: white;
+  --body-font-color: grey;
+  --accent-color: rgb(230, 255, 255);
+  --head-bg-color: grey;
+  --body-bg-color: rgb(240, 250, 255);
+  --foot-bg-color: rgb(180, 180, 180);
+
+  /*--FONTS--*/
+  --reg-font: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  --head-font: "Georgia", Times, Times New Roman, serif;
+}
