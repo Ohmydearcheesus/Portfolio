@@ -13,3 +13,47 @@
   --reg-font: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   --head-font: "Georgia", Times, Times New Roman, serif;
 }
+
+body {
+  background-image: url(../images/tileable-wood.png);
+}
+
+/*-------------------Nav bar style--------------------*/
+
+nav {
+  border-bottom: 5px solid var(--accent-color);
+  background-color: var(--head-bg-color);
+  color: var(--head-font-color);
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.name {
+  font: 2.5em var(--head-font);
+}
+
+.buttons {
+  color: var(--head-font-color);
+}
+
+.button {
+  font-size: 1.25em;
+}
+
+#active {
+  background-color: var(--accent-color);
+  color: var(--head-bg-color);
+}
+
+/*------------------Body content style-------------------*/
+
+.main {
+  background-color: var(--body-bg-color);
+  color: var(--body-font-color);
+  border-radius: 3px;
+  font-size: 1em;
+  font-family: var(--reg-font);
+  line-height: 160%;
+}
