@@ -51,15 +51,23 @@ nav {
 
 #active {
   background-color: var(--accent-color);
-  color: var(--head-bg-color);
+  color: var(--body-font-color);
 }
 
 #active a:any-link {
-  color: var(--head-bg-color);
+  color: var(--body-font-color);
   text-decoration: none;
 }
 
 /*------------------Body content style-------------------*/
+
+h2 {
+  font-family: var(--head-font);
+  font-weight: normal;
+  font-size: 1.75em;
+  color: var(--foot-bg-color);
+  border-bottom: 2px solid var(--foot-bg-color);
+}
 
 .main {
   background-color: var(--body-bg-color);
@@ -68,4 +76,22 @@ nav {
   font-size: 1em;
   font-family: var(--reg-font);
   line-height: 160%;
+}
+
+form {
+  color: var(--body-font-color);
+}
+
+input {
+  font-size: 1em;
+  color: var(--body-font-color);
+}
+
+#submit {
+  background-color: var(--foot-bg-color);
+  color: var(--head-font-color);
+  font-size: 1.25em;
+  font-family: var(--head-font);
+  border: none;
+  border-radius: 5px;
 }

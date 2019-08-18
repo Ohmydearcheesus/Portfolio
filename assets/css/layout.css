@@ -35,10 +35,14 @@ nav {
 }
 
 .main {
-  padding: 20px 50px 0px 50px;
+  padding: 30px 50px 20px 50px;
   margin: 50px;
-  max-width: 45%;
+  width: 50%;
   align-self: center;
+}
+
+h2 {
+  margin: 20px 0px 30px 0px;
 }
 
 #profile {
@@ -46,4 +50,34 @@ nav {
   margin: 20px 20px 10px 10px;
   height: 180px;
   width: 180px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+}
+
+input {
+  height: 20px;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 300px;
+}
+
+input,
+textarea {
+  margin: 5px 10px 0px 10px;
+  padding: 5px;
+  align-self: flex-start;
+  width: 92%;
+}
+
+#submit {
+  align-self: flex-end;
+  width: 100px;
+  height: 50px;
+  margin: 20px 50px 10px 0px;
 }

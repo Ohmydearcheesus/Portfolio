@@ -8,20 +8,35 @@
 </head>
 
 <body>
-  <nav>
-    <div class="name">Linlin Xing</div>
-    <div class="buttons">
-      <span class="button">
-        <a class="nav-link" href="./index.html">Home</a>
-      </span>
-      <span class="button" id="active">
-        <a class="nav-link" href="./contact.html">Contact</a>
-      </span>
-      <span class="button">
-        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-      </span>
-    </div>
-  </nav>
+  <div class="body">
+    <nav>
+      <div class="name">Linlin Xing</div>
+      <div class="buttons">
+        <div class="button">
+          <a class="nav-link" href="./index.html">Home</a>
+        </div>
+        <div class="button" id="active">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </div>
+        <div class="button">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </div>
+      </div>
+    </nav>
 
-  <div></div>
+    <div class="main">
+      <h2>Contact</h2>
+      <!--To make the form data go somewhere upon submission, replace the #. Goes nowhere for now-->
+      <form id = "action="#">
+        Name:<br />
+        <input type="text" name="name" value="" /> <br />
+        Email:<br />
+        <input type="text" name="email" value="" />
+        <br />
+        Message:<br />
+        <textarea rows="5" cols="20" type="text" name="message" value="" /></textarea> <br />
+        <button id="submit" type="button">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
