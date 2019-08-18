@@ -26,20 +26,27 @@ nav {
   color: var(--head-font-color);
 }
 
-.nav-link {
-  text-decoration: none;
-}
-
 .name {
   font: 2.5em var(--head-font);
 }
 
-.buttons {
-  color: var(--head-font-color);
-}
-
 .button {
   font-size: 1.25em;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.button a:link {
+  color: var(--head-font);
+  text-decoration: none;
+}
+
+.button a:visited {
+  color: var(--head-font);
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: var(--accent-color);
 }
 
 #active {
@@ -47,12 +54,17 @@ nav {
   color: var(--head-bg-color);
 }
 
+#active a:any-link {
+  color: var(--head-bg-color);
+  text-decoration: none;
+}
+
 /*------------------Body content style-------------------*/
 
 .main {
   background-color: var(--body-bg-color);
   color: var(--body-font-color);
-  border-radius: 3px;
+  border-radius: 5px;
   font-size: 1em;
   font-family: var(--reg-font);
   line-height: 160%;
