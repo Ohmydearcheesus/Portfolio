@@ -60,18 +60,19 @@ form {
 
 input {
   height: 20px;
+  padding: 5px;
 }
 
 textarea {
   resize: vertical;
   max-height: 300px;
+  padding: 10px 0px 10px 10px;
 }
 
 input,
 textarea {
-  margin: 5px 10px 0px 10px;
-  padding: 5px;
   align-self: flex-start;
+  margin: 5px 10px 0px 10px;
   width: 92%;
 }
 

@@ -82,9 +82,22 @@ form {
   color: var(--body-font-color);
 }
 
-input {
+input,
+textarea {
+  font-family: var(--reg-font);
   font-size: 1em;
   color: var(--body-font-color);
+  border: 1px solid var(--foot-bg-color);
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid var(--foot-bg-color);
+  outline: none;
+}
+
+textarea::placeholder {
+  color: var(--foot-bg-color);
 }
 
 #submit {
